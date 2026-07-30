@@ -1,2 +1,5 @@
 # Hybrid-ML-Fault-Detection-Electrical-Grids
 Developed a hybrid machine learning model for fault detection and electrical grid stability prediction by combining Support Vector Machine (SVM) and Random Forest (RF) classifiers.
+
+
+The dataset is then split into training and testing sets in a 70:30 ratio. We train two independent classifiers: Support Vector Machine, which learns an optimal decision boundary between stable and unstable operating conditions, and Random Forest, which uses an ensemble of decision trees to improve robustness and reduce overfitting. The predictions from both models are combined using a hybrid decision strategy to improve reliability. We evaluate the system using accuracy, precision, recall, and F1-score, where the hybrid model achieves 96% accuracy. Finally, the predictions are imported into MATLAB Simulink to simulate real-time monitoring and visualize how the grid state changes over time, demonstrating how the model could support early warning of abnormal operating conditions.
