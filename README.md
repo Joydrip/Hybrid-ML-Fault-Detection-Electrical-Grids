@@ -52,7 +52,7 @@ The overall architecture of the proposed electrical grid stability detection sys
 ### Fig. 1 — System Architecture
 
 <p align="center">
-  <img src="images/fig1_system_architecture.png" width="850">
+  <img src="images/fig1_system_architecture.png" width="350">
 </p>
 
 <p align="center">
@@ -104,7 +104,7 @@ Electrical Grid Dataset
 ### Fig. 2 — Working Flowchart
 
 <p align="center">
-  <img src="images/fig2_working_flowchart.png" width="850">
+  <img src="images/fig2_working_flowchart.png" width="350">
 </p>
 
 <p align="center">
@@ -215,7 +215,7 @@ It also demonstrated balanced precision, recall, and F1-score across stable and 
 ### Fig. 4 — Model Comparison
 
 <p align="center">
-  <img src="images/fig4_model_comparison.png" width="850">
+  <img src="images/fig4_model_comparison.png" width="350">
 </p>
 
 <p align="center">
@@ -253,7 +253,7 @@ Stable and unstable responses can therefore be observed as the simulated data pr
 ### Fig. 5 — Simulink Scope Output
 
 <p align="center">
-  <img src="images/fig5_simulink_output.png" width="900">
+  <img src="images/fig5_simulink_output.png" width="350">
 </p>
 
 <p align="center">
@@ -327,7 +327,6 @@ Hybrid-ML-Fault-Detection-Electrical-Grids/
 │   ├── 01_Data_Preprocessing.ipynb
 │   ├── 02_SVM_Model.ipynb
 │   ├── 03_Random_Forest_Model.ipynb
-│   └── 04_Hybrid_Model.ipynb
 │
 ├── images/
 │   ├── fig1_system_architecture.png
@@ -335,14 +334,6 @@ Hybrid-ML-Fault-Detection-Electrical-Grids/
 │   ├── fig3_simulink_model.png
 │   ├── fig4_model_comparison.png
 │   └── fig5_simulink_output.png
-│
-├── models/
-│   └── trained_models/
-│
-├── paper/
-│   └── publication.pdf
-│
-└── requirements.txt
 ```
 
 ---
